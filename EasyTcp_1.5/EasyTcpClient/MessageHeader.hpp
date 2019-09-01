@@ -38,7 +38,7 @@ struct LoginResult : public DataHeader
 {
 	LoginResult()
 	{
-		dataLength = sizeof(Login);
+		dataLength = sizeof(LoginResult);
 		cmd = CMD_LOGIN_RESULT;
 		result = 0;
 	}
