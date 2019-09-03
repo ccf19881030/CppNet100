@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
 {
 	EasyTcpClient easyClient;
 	//easyClient.InitSock();
-	easyClient.Connect("192.168.191.1", 4567);
+	easyClient.Connect("127.0.0.1", 4567);
 
 	// 循环输入命令
 	// 启动UI线程

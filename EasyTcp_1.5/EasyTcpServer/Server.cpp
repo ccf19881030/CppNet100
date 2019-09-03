@@ -13,7 +13,7 @@ int main(int argc, char *agrv[])
 
 	EasyTcpServer easyServer;
 	easyServer.InitSock();
-	easyServer.Bind("192.168.191.134", 4567);
+	easyServer.Bind("127.0.0.1", 4567);
 	easyServer.Listen(5);
 	//easyServer.Accept();
 
