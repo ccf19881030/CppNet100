@@ -83,7 +83,9 @@ int main()
 	}
 
 	while (g_bRun)
-		Sleep(100);
+	{
+		std::this_thread::sleep_for(std::chrono::milliseconds(100));
+	}
 
 	printf("ÒÑÍË³ö¡£\n");
 	return 0;
